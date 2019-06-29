@@ -1,0 +1,9 @@
+Calculate intersection of rays onto a line attached to 
+the player (perpendicular to the view vector)
+instead of onto the player point.
+This will remove the fish-eye effect.
+
+Find a better way to sort the walls than based
+on the distance of their midpoints to the
+player. Walls that are not the same length
+sometimes get misplaced in the draw order.
